@@ -1,15 +1,13 @@
-You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
-Return the merged string.
-
+/* Check README for problem statement */
 
 var mergeAlternately = function(word1, word2) {
     let mergedString = "";
     let minLength = Math.min(word1.length, word2.length);
-    console.log(minLength);
     for(let i = 0; i < minLength; i++) {
         mergedString = mergedString + word1[i] + word2[i];
     }
     mergedString = mergedString + word1.substring(minLength, word1.length) + word2.substring(minLength , word2.length);
-    console.log(mergedString);
     return mergedString;
 };
+
+module.exports = {mergeAlternately};
