@@ -4,7 +4,7 @@ Given an integer array `nums`, return `true` if there exists a triple of indices
 
 ## Constraints:
 
-    1 <= nums.length <= 5 * 105
+    1 <= nums.length <= 5 * 10^5
     -231 <= nums[i] <= 231 - 1
 
 
