@@ -14,4 +14,4 @@ var canPlaceFlowers = function(flowerbed, n) {
     return n <= 0;
 };
 
-module.exports = canPlaceFlowers;
+module.exports = {canPlaceFlowers};
