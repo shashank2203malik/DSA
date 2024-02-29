@@ -1,7 +1,4 @@
-Given an array of integers arr, return true if the number of occurrences of each value in the array is unique or false otherwise.
-
-
-
+/* Check README for problem statement */
 
 var uniqueOccurrences = function(arr) {
     let arrObj = {};
@@ -14,3 +11,5 @@ var uniqueOccurrences = function(arr) {
     let set = new Set(values);
     return (set.size === values.length);
 };
+
+module.exports = uniqueOccurrences;
